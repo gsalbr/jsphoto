@@ -1,4 +1,4 @@
-// stuff for the nav bar 
+//nav bar
 $(document).ready(function(){
   $(window).scroll(function(){
     var scrollTop = $(window).scrollTop();
@@ -35,11 +35,4 @@ function changeMe2() {
 
 function changeMeBack2() {
   document.getElementById("kspa").src = "images/kspalabel.png";
-}
-
-// form 
-function message() {
-  var first= document.getElementById("fn").value; 
-  var last= document.getElementById("ln").value; 
-  alert(first + " " + last + ", you should follow @juliann.photography on Instagram")
 }
